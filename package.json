@@ -13,14 +13,15 @@
   "description": "One Agent, one Workflow and one Tool to bring you the weather in your city.",
   "type": "module",
   "dependencies": {
-    "@mastra/core": "latest",
-    "@mastra/loggers": "latest",
+    "@mastra/core": "0.0.0-ai-v5-20250813235735",
+    "@mastra/loggers": "0.0.0-ai-v5-20250813235735",
     "zod": "^3.25.67",
-    "@ai-sdk/google": "^2.0.6"
+    "@ai-sdk/google": "^2.0.6",
+    "ai": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
-    "mastra": "latest",
+    "mastra": "0.0.0-ai-v5-20250813235735",
     "typescript": "^5.8.3"
   }
 }
